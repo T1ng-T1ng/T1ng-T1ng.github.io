@@ -194,14 +194,14 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h1><h2 id="Java的基础学习"><a href="#Java的基础学习" class="headerlink" title="Java的基础学习"></a>Java的基础学习</h2><span id="more"></span>
+        <h1><span id="java">Java</span></h1><h2><span id="java的基础学习">Java的基础学习</span></h2><span id="more"></span>
 
-<h2 id="Java教程"><a href="#Java教程" class="headerlink" title="Java教程"></a>Java教程</h2><h3 id="Java语法"><a href="#Java语法" class="headerlink" title="Java语法"></a>Java语法</h3><p>Java 区分大小写：“MyClass”和“myclass”具有不同的含义<br>java 文件的名称必须与类名匹配。保存文件时，使用类名保存，并在文件名末尾添加“.java”</p>
+<h2><span id="java教程">Java教程</span></h2><h3><span id="java语法">Java语法</span></h3><p>Java 区分大小写：“MyClass”和“myclass”具有不同的含义<br>java 文件的名称必须与类名匹配。保存文件时，使用类名保存，并在文件名末尾添加“.java”</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span></span><br></pre></td></tr></table></figure>
 
 <p>方法内的任何代码都<code>main()</code>将被执行</p>
 <p>System.out.pritlnm()<br><code>System</code>是一个内置 Java 类，包含有用的成员，例如<code>out</code>，它是“输出”的缩写。<code>println()</code>方法是“打印行”的缩写，用于将值打印到屏幕（或文件）。</p>
-<h3 id="Java输出"><a href="#Java输出" class="headerlink" title="Java输出"></a>Java输出</h3><p>可以添加<code>println()</code>任意数量的方法</p>
+<h3><span id="java输出">Java输出</span></h3><p>可以添加<code>println()</code>任意数量的方法</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">System.out.println(<span class="string">&quot;Hello World!&quot;</span>);</span><br><span class="line">System.out.println(<span class="string">&quot;I am learning Java.&quot;</span>);</span><br><span class="line">System.out.println(<span class="string">&quot;It is awesome!&quot;</span>);</span><br></pre></td></tr></table></figure>
 
 <p>处理文本时，必须将其括在双引号内<code>&quot;&quot;</code>。如果忘记双引号，则会出现错误：<br>Print()方法<br>它不会在输出末尾插入新行</p>
@@ -214,13 +214,13 @@
 <p>可以在<code>println()</code>方法内部执行数学计算</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">System.out.println(<span class="number">3</span> + <span class="number">3</span>);</span><br></pre></td></tr></table></figure>
 
-<h3 id="Java注释"><a href="#Java注释" class="headerlink" title="Java注释"></a>Java注释</h3><p>单行注释以两个正斜杠 ( <code>//</code>) 开头。<code>//</code>Java 会忽略该行和该行末尾之间的任何文本（将不会被执行）。</p>
+<h3><span id="java注释">Java注释</span></h3><p>单行注释以两个正斜杠 ( <code>//</code>) 开头。<code>//</code>Java 会忽略该行和该行末尾之间的任何文本（将不会被执行）。</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// This is a comment</span></span><br><span class="line">System.out.println(<span class="string">&quot;Hello World&quot;</span>);</span><br></pre></td></tr></table></figure>
 
 <p>多行注释以 开头<code>/*</code>，以 结尾<code>*/</code>。<br><code>/*</code>和之间的任何文本<code>*/</code>都将被 Java 忽略。</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* The code below will print the words Hello World</span></span><br><span class="line"><span class="comment">to the screen, and it is amazing */</span></span><br><span class="line">System.out.println(<span class="string">&quot;Hello World&quot;</span>);</span><br></pre></td></tr></table></figure>
 
-<h3 id="Java变量"><a href="#Java变量" class="headerlink" title="Java变量"></a>Java变量</h3><h4 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h4><ul>
+<h3><span id="java变量">Java变量</span></h3><h4><span id="变量">变量</span></h4><ul>
 <li><code>String</code>- 存储文本，例如“Hello”。字符串值用双引号括起来</li>
 <li><code>int</code>- 存储整数（整数），不带小数，例如 123 或 -123</li>
 <li><code>float</code>- 存储带有小数的浮点数，例如 19.99 或 -19.99</li>
@@ -248,7 +248,7 @@
 <p><em>java: 无法为最终变量myNum分配值</em></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">myNum</span> <span class="operator">=</span> <span class="number">5</span>;</span><br><span class="line"><span class="type">float</span> <span class="variable">myFloatNum</span> <span class="operator">=</span> <span class="number">5.99f</span>;</span><br><span class="line"><span class="type">char</span> <span class="variable">myLetter</span> <span class="operator">=</span> <span class="string">&#x27;D&#x27;</span>;</span><br><span class="line"><span class="type">boolean</span> <span class="variable">myBool</span> <span class="operator">=</span> <span class="literal">true</span>;</span><br><span class="line"><span class="type">String</span> <span class="variable">myText</span> <span class="operator">=</span> <span class="string">&quot;Hello&quot;</span>;</span><br></pre></td></tr></table></figure>
 
-<h4 id="打印变量"><a href="#打印变量" class="headerlink" title="打印变量"></a>打印变量</h4><p>显示变量<br>println()方法常用来显示变量<br>要组合文本和变量，用+字符</p>
+<h4><span id="打印变量">打印变量</span></h4><p>显示变量<br>println()方法常用来显示变量<br>要组合文本和变量，用+字符</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">name</span> <span class="operator">=</span> <span class="string">&quot;John&quot;</span>;</span><br><span class="line">System.out.println(<span class="string">&quot;Hello &quot;</span> + name);</span><br></pre></td></tr></table></figure>
 
 <p>还可以用+字符将一个变量添加到另一个变量</p>
@@ -257,13 +257,13 @@
 <p>对于数值，+字符充当数学运算符（使用<code>int</code>（整数）变量）</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">x</span> <span class="operator">=</span> <span class="number">5</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">y</span> <span class="operator">=</span> <span class="number">6</span>;</span><br><span class="line">System.out.println(x+y);   <span class="comment">//Print the value of x + y</span></span><br></pre></td></tr></table></figure>
 
-<h4 id="多个变量"><a href="#多个变量" class="headerlink" title="多个变量"></a>多个变量</h4><p>声明多个同一类型的变量，可用逗号分割</p>
+<h4><span id="多个变量">多个变量</span></h4><p>声明多个同一类型的变量，可用逗号分割</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">x</span> <span class="operator">=</span> <span class="number">5</span>,  y = <span class="number">6</span>, z = <span class="number">50</span>;</span><br><span class="line">System.out.println(x + y + z);</span><br></pre></td></tr></table></figure>
 
 <p>一个值对应多个变量</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> x, y, z;</span><br><span class="line">x = y = z = <span class="number">50</span>;</span><br><span class="line">System.out.println(x + y + z);</span><br></pre></td></tr></table></figure>
 
-<h4 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h4><p>所有 Java<strong>变量</strong>都必须 具有唯一的名称来标识<br>建议使用描述性名称以创建可理解和可维护的代码</p>
+<h4><span id="标识符">标识符</span></h4><p>所有 Java<strong>变量</strong>都必须 具有唯一的名称来标识<br>建议使用描述性名称以创建可理解和可维护的代码</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Good</span></span><br><span class="line"><span class="type">int</span> <span class="variable">minutesPerHour</span> <span class="operator">=</span> <span class="number">60</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// OK, but not so easy to understand what m actually is</span></span><br><span class="line"><span class="type">int</span> <span class="variable">m</span> <span class="operator">=</span> <span class="number">60</span>;</span><br></pre></td></tr></table></figure>
 
 <p>变量命名的一般规则</p>
@@ -281,7 +281,7 @@
 <p>计算矩形面积</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//    Creat integer variable</span></span><br><span class="line"><span class="type">int</span> <span class="variable">length</span> <span class="operator">=</span> <span class="number">4</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">width</span> <span class="operator">=</span> <span class="number">6</span>;</span><br><span class="line"><span class="type">int</span> area;</span><br><span class="line"></span><br><span class="line"><span class="comment">//    Calculate the area of a rectangle</span></span><br><span class="line">area = length * width;</span><br><span class="line"></span><br><span class="line"><span class="comment">//    Print variables</span></span><br><span class="line">System.out.println(<span class="string">&quot;Length is ：&quot;</span> + length);</span><br><span class="line">System.out.println(<span class="string">&quot;Width is ：&quot;</span> + width);</span><br><span class="line">System.out.println(<span class="string">&quot;Area of the rectangle is ：&quot;</span> + area);</span><br></pre></td></tr></table></figure>
 
-<h3 id="Java数据类型"><a href="#Java数据类型" class="headerlink" title="Java数据类型"></a>Java数据类型</h3><h4 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h4><ul>
+<h3><span id="java数据类型">Java数据类型</span></h3><h4><span id="数据类型">数据类型</span></h4><ul>
 <li>原始数据类型-包括<code>byte``short</code>​<code>int``long``float``double``boolean``char</code></li>
 <li>非原始数据类型 - 例如[String]，数组和 类</li>
 </ul>
@@ -335,8 +335,8 @@
 <td>Stores a single character&#x2F;letter or ASCII values</td>
 </tr>
 </tbody></table>
-<h4 id="数字"><a href="#数字" class="headerlink" title="数字"></a>数字</h4><p>原始数字分为两类：<br>整数类型    存储整数，正数，负数（例如 123或-456）有效类型为 int long byte short<br>浮点类型    表示带有小数部分的数字，包含一个或多个小数，两种类型float 和douclew</p>
-<h5 id="整数类型"><a href="#整数类型" class="headerlink" title="整数类型"></a>整数类型</h5><p>byte<br>可以存储从-128到127的整数。当值在以上区间时，可以使用byte代替其他整数类型，节省空间</p>
+<h4><span id="数字">数字</span></h4><p>原始数字分为两类：<br>整数类型    存储整数，正数，负数（例如 123或-456）有效类型为 int long byte short<br>浮点类型    表示带有小数部分的数字，包含一个或多个小数，两种类型float 和douclew</p>
+<h5><span id="整数类型">整数类型</span></h5><p>byte<br>可以存储从-128到127的整数。当值在以上区间时，可以使用byte代替其他整数类型，节省空间</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">byte</span> <span class="variable">myNum</span> <span class="operator">=</span> <span class="number">100</span>;</span><br><span class="line">System.out.println(myNum);</span><br></pre></td></tr></table></figure>
 
 <p>short<br>可以存储从-32768到32767的整数</p>
@@ -348,50 +348,50 @@
 <p>long<br>可以存储从 -9223372036854775808 到 9223372036854775807 的整数。应以”L”结尾该值</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">long</span> <span class="variable">myNum</span> <span class="operator">=</span> <span class="number">15000000000L</span>;</span><br><span class="line">System.out.println(myNum);</span><br></pre></td></tr></table></figure>
 
-<h5 id="浮点类型"><a href="#浮点类型" class="headerlink" title="浮点类型"></a>浮点类型</h5><p>float和double都可以存储小数。<br>浮点数的值应该以“f”结尾，而双精度的值应以“d”结尾</p>
+<h5><span id="浮点类型">浮点类型</span></h5><p>float和double都可以存储小数。<br>浮点数的值应该以“f”结尾，而双精度的值应以“d”结尾</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">float</span> <span class="variable">myNum</span> <span class="operator">=</span> <span class="number">5.75f</span>;</span><br><span class="line">System.out.println(myNum);</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">double</span> <span class="variable">myNum</span> <span class="operator">=</span> <span class="number">19.99d</span>;</span><br><span class="line">System.out.println(myNum);</span><br></pre></td></tr></table></figure>
 
 <p>使用float和double？<br>浮点值的精度表示该值在小数点后可以有多少位数字，精度只有六到七位小数，而double的精度为15位。因此大多数，使用浮点数更为安全。</p>
-<h5 id="科学数字"><a href="#科学数字" class="headerlink" title="科学数字"></a>科学数字</h5><p>浮点数也可以是带有“e”的科学数，，表示10的幂</p>
+<h5><span id="科学数字">科学数字</span></h5><p>浮点数也可以是带有“e”的科学数，，表示10的幂</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">float</span> <span class="variable">f1</span> <span class="operator">=</span><span class="number">35e3f</span>;</span><br><span class="line"><span class="type">double</span> <span class="variable">d1</span> <span class="operator">=</span> <span class="number">12E4d</span>;</span><br><span class="line">System.out.println(f1);</span><br><span class="line">System.out.println(d1);</span><br></pre></td></tr></table></figure>
 
-<h4 id="布尔值"><a href="#布尔值" class="headerlink" title="布尔值"></a>布尔值</h4><p>Java具有一种boolean数据结构，只能采用以下值ture和false</p>
+<h4><span id="布尔值">布尔值</span></h4><p>Java具有一种boolean数据结构，只能采用以下值ture和false</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">boolean</span> <span class="variable">isJavaFun</span> <span class="operator">=</span> ture;</span><br><span class="line"><span class="type">boolean</span> <span class="variable">isFishTasty</span> <span class="operator">=</span> <span class="literal">false</span>;</span><br><span class="line">System.out.println(isJavaFun);   <span class="comment">//Outputs ture</span></span><br><span class="line">System.out.println(isFishTasty);    <span class="comment">//Outputs false</span></span><br></pre></td></tr></table></figure>
 
-<h4 id="Characters"><a href="#Characters" class="headerlink" title="Characters"></a>Characters</h4><p>char数据类型用于存储单个字符。字符必须用单引号括起来，例’A’</p>
+<h4><span id="characters">Characters</span></h4><p>char数据类型用于存储单个字符。字符必须用单引号括起来，例’A’</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">char</span> <span class="variable">myGrade</span> <span class="operator">=</span> <span class="string">&#x27;A&#x27;</span>;</span><br><span class="line">System.out.println(myGrade);</span><br></pre></td></tr></table></figure>
 
 <p>如果熟悉ASCII值，也可以用这些值显示字符</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">char</span> <span class="variable">myVar1</span> <span class="operator">=</span> <span class="number">65</span>, myVar2 = <span class="number">66</span>, myVar3 = <span class="number">67</span>;</span><br><span class="line">System.out.println(myVar1);     <span class="comment">//Outputs    A</span></span><br><span class="line">System.out.println(myVar2);    <span class="comment">//Outputs    B</span></span><br><span class="line">System.out.println(myVar3);    <span class="comment">//Outputs    C</span></span><br></pre></td></tr></table></figure>
 
-<h4 id="Strings"><a href="#Strings" class="headerlink" title="Strings"></a>Strings</h4><p>Strings数据类型用于存储字符序列（文本）。字符串类型必须用双引号括起来</p>
+<h4><span id="strings">Strings</span></h4><p>Strings数据类型用于存储字符序列（文本）。字符串类型必须用双引号括起来</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">Strings</span> <span class="variable">greeting</span> <span class="operator">=</span> <span class="string">&quot;Hello World&quot;</span>;</span><br><span class="line">System.out.println(greeing);</span><br></pre></td></tr></table></figure>
 
 <p>Java 中的字符串实际上是一种<strong>非原始</strong>数据类型，因为它指的是对象。String 对象具有用于对字符串执行某些操作的方法。</p>
-<h4 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Create variables of different data types</span></span><br><span class="line"><span class="type">int</span> <span class="variable">items</span> <span class="operator">=</span> <span class="number">50</span>;</span><br><span class="line"><span class="type">float</span> <span class="variable">costPerItem</span> <span class="operator">=</span> <span class="number">9.99f</span>;</span><br><span class="line"><span class="type">float</span> <span class="variable">totalCost</span> <span class="operator">=</span> items * costPerItem;</span><br><span class="line"><span class="type">char</span> <span class="variable">currency</span> <span class="operator">=</span> <span class="string">&#x27;$&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Print variables</span></span><br><span class="line">System.out.println(<span class="string">&quot;Number of items: &quot;</span> + items);</span><br><span class="line">System.out.println(<span class="string">&quot;Cost per item: &quot;</span> + costPerItem + currency);</span><br><span class="line">System.out.println(<span class="string">&quot;Total cost = &quot;</span> + totalCost + currency);</span><br></pre></td></tr></table></figure>
+<h4><span id="实例">实例</span></h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Create variables of different data types</span></span><br><span class="line"><span class="type">int</span> <span class="variable">items</span> <span class="operator">=</span> <span class="number">50</span>;</span><br><span class="line"><span class="type">float</span> <span class="variable">costPerItem</span> <span class="operator">=</span> <span class="number">9.99f</span>;</span><br><span class="line"><span class="type">float</span> <span class="variable">totalCost</span> <span class="operator">=</span> items * costPerItem;</span><br><span class="line"><span class="type">char</span> <span class="variable">currency</span> <span class="operator">=</span> <span class="string">&#x27;$&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Print variables</span></span><br><span class="line">System.out.println(<span class="string">&quot;Number of items: &quot;</span> + items);</span><br><span class="line">System.out.println(<span class="string">&quot;Cost per item: &quot;</span> + costPerItem + currency);</span><br><span class="line">System.out.println(<span class="string">&quot;Total cost = &quot;</span> + totalCost + currency);</span><br></pre></td></tr></table></figure>
 
 
-<h4 id="Java非原始数据类型"><a href="#Java非原始数据类型" class="headerlink" title="Java非原始数据类型"></a>Java非原始数据类型</h4><p>非原始数据类型被称为<strong>引用类型，因为它们引用对象</strong><br><strong>原始</strong>数据类型和<strong>非原始</strong>数据类型之间的主要区别是：</p>
+<h4><span id="java非原始数据类型">Java非原始数据类型</span></h4><p>非原始数据类型被称为<strong>引用类型，因为它们引用对象</strong><br><strong>原始</strong>数据类型和<strong>非原始</strong>数据类型之间的主要区别是：</p>
 <ul>
 <li>原始类型在 Java 中是预定义的（已经定义）。非原始类型由程序员创建，并且不是由 Java 定义的（除了<code>String</code>）。</li>
 <li>非原始类型可以用来调用方法来执行某些操作，而原始类型则不能。</li>
 <li>原始类型总是有一个值，而非原始类型则可以<code>null</code>。</li>
 <li>原始类型以小写字母开头，而非原始类型以大写字母开头。<br>非原始类型的示例有<a target="_blank" rel="noopener" href="https://www.w3schools.com/java/java_strings.asp">字符串</a>、<a target="_blank" rel="noopener" href="https://www.w3schools.com/java/java_arrays.asp">数组</a>、<a target="_blank" rel="noopener" href="https://www.w3schools.com/java/java_classes.asp">类、</a><a target="_blank" rel="noopener" href="https://www.w3schools.com/java/java_interface.asp">接口</a>等</li>
 </ul>
-<h3 id="Java类型转换"><a href="#Java类型转换" class="headerlink" title="Java类型转换"></a>Java类型转换</h3><p>类型转换是将一种原始数据类型的值分配给另一类型<br>在Java有两种类型转换：<br>    扩展类型转换（自动）    - 将较小的类型转换为较大的类型<br>byte-&gt;short-&gt;char-&gt;int-&gt;long-&gt;float-&gt;double<br>     缩小类型转换（手动）    - 将较大的类型转换为较小的类型<br>double-&gt;float-&gt;long-&gt;int-&gt;char-&gt;short-&gt;byte</p>
-<h4 id="加宽铸造"><a href="#加宽铸造" class="headerlink" title="加宽铸造"></a>加宽铸造</h4><p>将较小的尺寸类型传递给较大的尺寸类型时，会自动进行扩展转换</p>
+<h3><span id="java类型转换">Java类型转换</span></h3><p>类型转换是将一种原始数据类型的值分配给另一类型<br>在Java有两种类型转换：<br>    扩展类型转换（自动）    - 将较小的类型转换为较大的类型<br>byte-&gt;short-&gt;char-&gt;int-&gt;long-&gt;float-&gt;double<br>     缩小类型转换（手动）    - 将较大的类型转换为较小的类型<br>double-&gt;float-&gt;long-&gt;int-&gt;char-&gt;short-&gt;byte</p>
+<h4><span id="加宽铸造">加宽铸造</span></h4><p>将较小的尺寸类型传递给较大的尺寸类型时，会自动进行扩展转换</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    <span class="type">int</span> <span class="variable">myInt</span> <span class="operator">=</span> <span class="number">9</span>;</span><br><span class="line">    <span class="type">double</span> <span class="variable">myDouble</span> <span class="operator">=</span> myInt; <span class="comment">// Automatic casting: int to double</span></span><br><span class="line"></span><br><span class="line">    System.out.println(myInt);      <span class="comment">// Outputs 9</span></span><br><span class="line">    System.out.println(myDouble);   <span class="comment">// Outputs 9.0</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h4 id="缩小铸造范围"><a href="#缩小铸造范围" class="headerlink" title="缩小铸造范围"></a>缩小铸造范围</h4><p>必须通过将类型<code>()</code> 放在值前面的括号中来手动完成缩小转换</p>
+<h4><span id="缩小铸造范围">缩小铸造范围</span></h4><p>必须通过将类型<code>()</code> 放在值前面的括号中来手动完成缩小转换</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    <span class="type">double</span> <span class="variable">myDouble</span> <span class="operator">=</span> <span class="number">9.78d</span>;</span><br><span class="line">    <span class="type">int</span> <span class="variable">myInt</span> <span class="operator">=</span> (<span class="type">int</span>) myDouble; <span class="comment">// Manual casting: double to int</span></span><br><span class="line"></span><br><span class="line">    System.out.println(myDouble);   <span class="comment">// Outputs 9.78</span></span><br><span class="line">    System.out.println(myInt);      <span class="comment">// Outputs 9</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h4 id="实例-1"><a href="#实例-1" class="headerlink" title="实例"></a>实例</h4><p>创建一个程序来计算用户得分占游戏最高得分的百分比，使用类型转换来确保结果是浮点值，而不是整数</p>
+<h4><span id="实例">实例</span></h4><p>创建一个程序来计算用户得分占游戏最高得分的百分比，使用类型转换来确保结果是浮点值，而不是整数</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Set the maximum possible score in the game to 500</span></span><br><span class="line"><span class="type">int</span> <span class="variable">maxScore</span> <span class="operator">=</span> <span class="number">500</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// The actual score of the user</span></span><br><span class="line"><span class="type">int</span> <span class="variable">userScore</span> <span class="operator">=</span> <span class="number">423</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* Calculate the percantage of the user&#x27;s score in relation to the maximum available score.</span></span><br><span class="line"><span class="comment">Convert userScore to float to make sure that the division is accurate */</span></span><br><span class="line"><span class="type">float</span> <span class="variable">percentage</span> <span class="operator">=</span> (<span class="type">float</span>) userScore / maxScore * <span class="number">100.0f</span>;</span><br><span class="line"></span><br><span class="line">System.out.println(<span class="string">&quot;User&#x27;s percentage is &quot;</span> + percentage);</span><br></pre></td></tr></table></figure>
 
 
-<h3 id="Java运算符"><a href="#Java运算符" class="headerlink" title="Java运算符"></a>Java运算符</h3><p>运算符用于对变量和值执行运算</p>
+<h3><span id="java运算符">Java运算符</span></h3><p>运算符用于对变量和值执行运算</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">x</span> <span class="operator">=</span> <span class="number">100</span> + <span class="number">50</span>;</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">sum1</span> <span class="operator">=</span> <span class="number">100</span> + <span class="number">50</span>;        <span class="comment">// 150 (100 + 50)</span></span><br><span class="line"><span class="type">int</span> <span class="variable">sum2</span> <span class="operator">=</span> sum1 + <span class="number">250</span>;      <span class="comment">// 400 (150 + 250)</span></span><br><span class="line"><span class="type">int</span> <span class="variable">sum3</span> <span class="operator">=</span> sum2 + sum2;     <span class="comment">// 800 (400 + 400)</span></span><br></pre></td></tr></table></figure>
@@ -404,7 +404,7 @@
 <li>逻辑运算符</li>
 <li>按位运算符</li>
 </ul>
-<h6 id="算术运算符"><a href="#算术运算符" class="headerlink" title="算术运算符"></a>算术运算符</h6><table>
+<h6><span id="算术运算符">算术运算符</span></h6><table>
 <thead>
 <tr>
 <th>运算符</th>
@@ -456,7 +456,7 @@
 <td>–x</td>
 </tr>
 </tbody></table>
-<h6 id="Java赋值运算符"><a href="#Java赋值运算符" class="headerlink" title="Java赋值运算符"></a>Java赋值运算符</h6><p>赋值运算符用于给变量赋值。</p>
+<h6><span id="java赋值运算符">Java赋值运算符</span></h6><p>赋值运算符用于给变量赋值。</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">x</span> <span class="operator">=</span> <span class="number">10</span>;</span><br></pre></td></tr></table></figure>
 
 <p>加法<strong>赋值运算</strong>符 ( <code>+=</code>) 为变量添加一个值：</p>
@@ -526,7 +526,7 @@
 <td>x &#x3D; x&lt;&lt; 3</td>
 </tr>
 </tbody></table>
-<h6 id="Java比较运算符"><a href="#Java比较运算符" class="headerlink" title="Java比较运算符"></a>Java比较运算符</h6><p>比较运算符用于比较两个值（或变量），比较的返回值为 或<code>true</code>，<code>false</code>这些值称为 <em>布尔值</em></p>
+<h6><span id="java比较运算符">Java比较运算符</span></h6><p>比较运算符用于比较两个值（或变量），比较的返回值为 或<code>true</code>，<code>false</code>这些值称为 <em>布尔值</em></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">x</span> <span class="operator">=</span> <span class="number">5</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">y</span> <span class="operator">=</span> <span class="number">3</span>;</span><br><span class="line">System.out.println(x &gt; y); <span class="comment">// returns true, because 5 is higher than 3</span></span><br></pre></td></tr></table></figure>
 
 <table>
@@ -568,7 +568,7 @@
 <td>x &lt;&#x3D; y</td>
 </tr>
 </tbody></table>
-<h6 id="Java逻辑运算符"><a href="#Java逻辑运算符" class="headerlink" title="Java逻辑运算符"></a>Java逻辑运算符</h6><table>
+<h6><span id="java逻辑运算符">Java逻辑运算符</span></h6><table>
 <thead>
 <tr>
 <th>运算符</th>
@@ -596,25 +596,25 @@
 <td>!(x &lt; 5 &amp;&amp; x &lt; 10)</td>
 </tr>
 </tbody></table>
-<h3 id="Java字符串"><a href="#Java字符串" class="headerlink" title="Java字符串"></a>Java字符串</h3><p>字符串用于存储文本</p>
-<h4 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h4><h5 id="Java字符串-1"><a href="#Java字符串-1" class="headerlink" title="Java字符串"></a>Java字符串</h5><p>变量<code>String</code>包含用双引号括起来的字符集合</p>
+<h3><span id="java字符串">Java字符串</span></h3><p>字符串用于存储文本</p>
+<h4><span id="字符串">字符串</span></h4><h5><span id="java字符串">Java字符串</span></h5><p>变量<code>String</code>包含用双引号括起来的字符集合</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">greeting</span> <span class="operator">=</span> <span class="string">&quot;Hello&quot;</span>;</span><br></pre></td></tr></table></figure>
 
-<h5 id="字符串长度"><a href="#字符串长度" class="headerlink" title="字符串长度"></a>字符串长度</h5><p>length()可以表示字符串的长度</p>
+<h5><span id="字符串长度">字符串长度</span></h5><p>length()可以表示字符串的长度</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">txt</span> <span class="operator">=</span> <span class="string">&quot;ABCDEFGHIJKL&quot;</span>;</span><br><span class="line">System.out.println(<span class="string">&quot;The length of the txt string is: &quot;</span> + txt.length());</span><br></pre></td></tr></table></figure>
 
-<h5 id="更多字符串方法"><a href="#更多字符串方法" class="headerlink" title="更多字符串方法"></a>更多字符串方法</h5><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">toUpperCase()，toLowerCase()</span><br><span class="line"><span class="type">String</span> <span class="variable">txt</span> <span class="operator">=</span> <span class="string">&quot;Hello World&quot;</span>;</span><br><span class="line">System.out.println(txt.toUpperCase());    <span class="comment">//Outputs &quot;HELLO WORLD&quot;</span></span><br><span class="line">System.out.println(txt.toLowerCase());    <span class="comment">//Outputs &quot;hello world&quot;</span></span><br></pre></td></tr></table></figure>
+<h5><span id="更多字符串方法">更多字符串方法</span></h5><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">toUpperCase()，toLowerCase()</span><br><span class="line"><span class="type">String</span> <span class="variable">txt</span> <span class="operator">=</span> <span class="string">&quot;Hello World&quot;</span>;</span><br><span class="line">System.out.println(txt.toUpperCase());    <span class="comment">//Outputs &quot;HELLO WORLD&quot;</span></span><br><span class="line">System.out.println(txt.toLowerCase());    <span class="comment">//Outputs &quot;hello world&quot;</span></span><br></pre></td></tr></table></figure>
 
-<h5 id="在字符串中查找字符"><a href="#在字符串中查找字符" class="headerlink" title="在字符串中查找字符"></a>在字符串中查找字符</h5><p>indexOf() 方法返回字符串中第一次出现的指定文本的索引（位置）（包括空格）：</p>
+<h5><span id="在字符串中查找字符">在字符串中查找字符</span></h5><p>indexOf() 方法返回字符串中第一次出现的指定文本的索引（位置）（包括空格）：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">txt</span> <span class="operator">=</span> <span class="string">&quot;Please locate where &#x27;locate&#x27; occurs!&quot;</span>;</span><br><span class="line">System.out.println(txt.indexOf(<span class="string">&quot;locate&quot;</span>)); <span class="comment">// Outputs 7</span></span><br></pre></td></tr></table></figure>
 
-<h4 id="String-Concatenation"><a href="#String-Concatenation" class="headerlink" title="String Concatenation"></a>String Concatenation</h4><p>运算符号+可以在字符串中使用</p>
+<h4><span id="string-concatenation">String Concatenation</span></h4><p>运算符号+可以在字符串中使用</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">firstName</span> <span class="operator">=</span> <span class="string">&quot;Jhon&quot;</span>;</span><br><span class="line"><span class="type">String</span> <span class="variable">lastName</span> <span class="operator">=</span> <span class="string">&quot;Doe&quot;</span>;</span><br><span class="line">System.out.println(firstName + <span class="string">&quot; &quot;</span> + lastName);</span><br></pre></td></tr></table></figure>
 
 <p>同样可以使用concat()方法连接字符串</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">firstName</span> <span class="operator">=</span> <span class="string">&quot;Jhon&quot;</span>;</span><br><span class="line"><span class="type">String</span> <span class="variable">lastName</span> <span class="operator">=</span> <span class="string">&quot;Doe&quot;</span>;</span><br><span class="line">System.out.println(firstName.concat(lastName));</span><br></pre></td></tr></table></figure>
 
-<h4 id="Java数字和字符串"><a href="#Java数字和字符串" class="headerlink" title="Java数字和字符串"></a>Java数字和字符串</h4><p>如果将两个数字相加，结果将是一个数字</p>
+<h4><span id="java数字和字符串">Java数字和字符串</span></h4><p>如果将两个数字相加，结果将是一个数字</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">x</span> <span class="operator">=</span> <span class="number">10</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">y</span> <span class="operator">=</span> <span class="number">20</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">z</span> <span class="operator">=</span> x + y;  <span class="comment">// z will be 30 (an integer/number)</span></span><br></pre></td></tr></table></figure>
 
 <p>如果添加两个字符串，结果将是字符串连接</p>
@@ -623,7 +623,7 @@
 <p>如果添加一个数字和一个字符串，结果将是字符串连接</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">x</span> <span class="operator">=</span> <span class="string">&quot;10&quot;</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">y</span> <span class="operator">=</span> <span class="number">20</span>;</span><br><span class="line"><span class="type">String</span> <span class="variable">z</span> <span class="operator">=</span> x + y;  <span class="comment">// z will be 1020 (a String)</span></span><br></pre></td></tr></table></figure>
 
-<h5 id="Java特殊字符"><a href="#Java特殊字符" class="headerlink" title="Java特殊字符"></a>Java特殊字符</h5><p>因为字符串必须用引号引起来，所以 Java 会误解这个字符串，并产生错误</p>
+<h5><span id="java特殊字符">Java特殊字符</span></h5><p>因为字符串必须用引号引起来，所以 Java 会误解这个字符串，并产生错误</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">txt</span> <span class="operator">=</span> <span class="string">&quot;We are the so-called &quot;</span>Vikings<span class="string">&quot; from the north.&quot;</span>;</span><br></pre></td></tr></table></figure>
 
 <p>避免此问题的方法是使用<strong>反斜杠转义字符</strong></p>
